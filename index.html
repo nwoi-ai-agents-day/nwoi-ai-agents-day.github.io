@@ -1,0 +1,127 @@
+---
+layout: default
+---
+{% assign ev = site.event %}
+{% assign p = ev.presenter %}
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">{{ ev.edition }} · {{ ev.date }}</p>
+    <h1>AI Agents <em>in Practice</em></h1>
+    <p class="lead">A one-day course on using AI agents in your research. An AI agent is an assistant that can read your files, run programs and check its own work. You learn how agents work, how to give them good tasks, how to use them safely and how to check what they produce.</p>
+    <div class="hero-actions">
+      {% if ev.register_url and ev.register_url != "" %}<a class="btn btn-primary" href="{{ ev.register_url }}">Register</a>{% endif %}
+      <a class="btn {% if ev.register_url and ev.register_url != '' %}btn-ghost{% else %}btn-primary{% endif %}" href="{{ '/programme/' | relative_url }}">See the programme</a>
+      <a class="btn btn-ghost" href="{{ '/setup/' | relative_url }}">Before you come</a>
+    </div>
+    <dl class="hero-facts">
+      <div><dt>Date</dt><dd>{{ ev.date }}</dd></div>
+      <div><dt>Time</dt><dd>{{ ev.time }}, then drinks</dd></div>
+      <div><dt>Location</dt><dd>{{ ev.location }}</dd></div>
+      <div><dt>Setup help</dt><dd>From {{ ev.walk_in }}</dd></div>
+    </dl>
+  </div>
+  <div class="hero-terminal" aria-hidden="true">
+    <div class="term-bar"><span></span><span></span><span></span></div>
+<pre><span class="t-prompt">&gt;</span> clean data.csv, make one plot,
+  and explain each step
+
+<span class="t-dim">● Reading data.csv…</span>
+<span class="t-dim">● Removing empty rows…</span>
+<span class="t-dim">● Writing plot.png</span>
+
+<span class="t-ok">✓</span> Done. Please check the rows I removed.<span class="t-cursor">▍</span></pre>
+  </div>
+</section>
+
+<section id="audience" class="section">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">Who it is for</p>
+      <h2>Researchers from NWO-I institutes</h2>
+    </div>
+    <div class="prose">
+      <p>The day is for about 50 to 60 researchers from NWO-I institutes. Most work outside computer science, in fields such as physics, astronomy, earth and ocean sciences, mathematics, chemistry and the life sciences.</p>
+      <p>You do not need a background in computer science. We explain every term the first time we use it. The examples come from research work. Think of a messy data file and a plot, an analysis script, a LaTeX paper, a literature search or a grant text.</p>
+    </div>
+  </div>
+</section>
+
+<section id="outcomes" class="section section-alt">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">What you will be able to do</p>
+      <h2>After the day, you can…</h2>
+    </div>
+    <ol class="goals">
+      <li><span><strong>How AI agents work.</strong> Say what happens when you type a request into an agent, and what an agent can and cannot see or do.</span></li>
+      <li><span><strong>Working effectively with an agent.</strong> Write a task description that an agent can follow. Give it the right context, steer it while it works and recover when it goes wrong.</span></li>
+      <li><span><strong>Skills and safety.</strong> Explain what a skill is, judge a shared skill before you install it and choose a safe setup for your own work.</span></li>
+      <li><span><strong>Larger work, and checking the results.</strong> Split a larger task, keep long work on track across sessions, recognise the typical failures and check results before you trust them.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="programme" class="section">
+  <div class="container">
+    <p class="eyebrow">Programme</p>
+    <h2>The day at a glance</h2>
+    <p class="section-lead">Four talks, two hands-on blocks in pairs and a group discussion. The <a href="{{ '/programme/' | relative_url }}">programme page</a> lists what each block covers.</p>
+    <div class="agenda-wrap">
+      <table class="agenda">
+        <thead><tr><th scope="col">Time</th><th scope="col">Block</th><th scope="col" class="agenda-format">Format</th></tr></thead>
+        <tbody>
+          {% for b in site.data.programme %}
+          <tr class="agenda-{{ b.kind }}">
+            <td class="agenda-time">{{ b.time }}</td>
+            <td class="agenda-title">{% if b.label %}<span class="agenda-label">{{ b.label }}</span> {% endif %}{{ b.title }}</td>
+            <td class="agenda-format">{{ b.format }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="before" class="section section-alt">
+  <div class="container">
+    <div class="callout">
+      <div>
+        <p class="eyebrow">Before you come</p>
+        <h2>Come with a working agent</h2>
+        <ul>
+          <li>Bring a laptop and its charger.</li>
+          <li>Install Claude Code or Codex and log in.</li>
+          <li>Turn off the setting that lets the provider use your data to improve its models.</li>
+          <li>Bring your own account. Without one, you can follow the demos.</li>
+          <li>Setup help starts at {{ ev.walk_in }}.</li>
+        </ul>
+      </div>
+      <a class="btn btn-primary" href="{{ '/setup/' | relative_url }}">Setup steps</a>
+    </div>
+  </div>
+</section>
+
+<section id="presenter" class="section">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">Presenter</p>
+      <h2>Who is teaching</h2>
+    </div>
+    <div>
+      <ul class="people people-one">
+        <li>
+          <a class="person" href="{{ p.profile }}">
+            <img class="avatar" src="{{ p.photo | relative_url }}" alt="{{ p.name }}" width="96" height="96">
+            <span>
+              <strong>{{ p.name }}</strong><br>
+              <span class="person-title">{{ p.title }}</span><br>
+              <span class="muted">{{ p.group }}</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="muted">Based on the CWI course <a href="{{ ev.course_url }}">AI Agents in Practice</a> by Bilgehan Ertan and Marten van Dijk.</p>
+    </div>
+  </div>
+</section>

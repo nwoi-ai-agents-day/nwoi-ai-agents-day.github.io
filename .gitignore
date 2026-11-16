@@ -1,0 +1,14 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Bundler (vendor is a symlink to the course site's gems)
+.bundle/
+vendor
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

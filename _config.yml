@@ -1,0 +1,48 @@
+title: AI Agents in Practice
+tagline: A one-day course for NWO-I researchers
+description: >-
+  A one-day course on using AI agents in research, for researchers from NWO-I
+  institutes. Based on the CWI course AI Agents in Practice.
+url: "https://cwi-aiagents-lectures.github.io"
+baseurl: "/nwoi-ai-agents-day"
+
+event:
+  edition: NWO-I edition
+  institute: CWI Amsterdam
+  date: Monday 7 December 2026
+  time: "10:00–17:00"
+  walk_in: "09:30"
+  location: Euler room, CWI, Science Park 123, Amsterdam
+  # Google Form link goes here. The register button appears once it is set.
+  register_url: ""
+  course_url: https://cwi-aiagents-lectures.github.io/
+  presenter:
+    name: Bilgehan Ertan
+    title: PhD Student, AI Safety & Privacy
+    group: Computer Security (CSY), CWI Amsterdam
+    profile: https://bilgehanertan.github.io
+    photo: /assets/img/people/ertan.jpg
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

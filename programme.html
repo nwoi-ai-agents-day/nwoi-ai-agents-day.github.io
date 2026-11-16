@@ -1,0 +1,47 @@
+---
+layout: default
+title: Programme
+permalink: /programme/
+---
+<section class="page-hero">
+  <div class="container narrow">
+    <p class="eyebrow">{{ site.event.date }} · {{ site.event.time }}</p>
+    <h1>Programme</h1>
+    <p class="lead">Four talks, two hands-on blocks and a group discussion. No talk is longer than 55 minutes. In the hands-on blocks you work in pairs, with one laptop and a working agent per pair.</p>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container narrow">
+    <ol class="timeline">
+      {% for b in site.data.programme %}
+      <li class="block block-{{ b.kind }}">
+        <div class="block-time">{{ b.time }}</div>
+        <div class="block-card">
+          {% if b.label or b.format %}
+          <div class="block-head">
+            {% if b.label %}<span class="block-label">{{ b.label }}</span>{% endif %}
+            {% if b.format %}<span class="tag tag-{{ b.kind }}">{{ b.format }}</span>{% endif %}
+          </div>
+          {% endif %}
+          <h3>{{ b.title }}</h3>
+          {% if b.items %}
+          <ul>
+            {% for it in b.items %}
+            {% if it.text %}
+            <li>{{ it.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+              <ul>{% for s in it.sub %}<li>{{ s | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}</ul>
+            </li>
+            {% else %}
+            <li>{{ it | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="fine">Slides will be posted on the <a href="{{ '/resources/' | relative_url }}">resources page</a> after the event.</p>
+  </div>
+</section>

@@ -1,0 +1,132 @@
+# The programme of the day. Used by the home page and the programme page.
+# Times must match plans/nwoi-day-syllabus.md.
+# kind: part, hands-on, discussion, closing, break, other
+
+- time: "09:30–10:00"
+  title: Walk-in, coffee and setup help
+  kind: other
+  format: Setup desk
+  items:
+    - Check that your agent is installed and that you are logged in.
+    - Get help with the install if it does not work yet.
+
+- time: "10:00–10:10"
+  title: Welcome
+  kind: other
+  format: Show of hands
+  items:
+    - Who has used ChatGPT or Claude?
+    - Who has used an agent?
+    - Who installed one today?
+
+- time: "10:10–11:00"
+  label: Part 1
+  title: How AI agents work
+  kind: part
+  format: Talk and live demo
+  items:
+    - From chatbot to agent. In a live demo, an agent reads a CSV file, makes a plot and checks its own output.
+    - What a language model is. Why it can sound sure when it is wrong.
+    - The agent loop. The agent reads, acts and looks at the result. The context window is its working memory.
+    - Where it runs, what it costs and where your data goes. Which tool to start with.
+
+- time: "11:00–11:20"
+  label: Hands-on 1
+  title: Your first agent task
+  kind: hands-on
+  format: Pairs, handoff file
+  items:
+    - You work in pairs, with one laptop and a working agent per pair.
+    - Your agent follows a handoff file. That is a file with instructions that the agent reads and follows.
+    - It makes a project folder, loads a small public dataset, cleans it, makes one plot and explains the steps.
+    - The agent asks before every step, so you see what it wants to do. Without a working agent you follow the same task live on the screen.
+
+- time: "11:20–11:35"
+  title: Coffee break
+  kind: break
+
+- time: "11:35–12:30"
+  label: Part 2
+  title: Working effectively with an agent
+  kind: part
+  format: Talk, one 3-minute pair exercise
+  items:
+    - A good task description. The goal, the context, the limits and what "done" looks like. In pairs, you rewrite "analyse my data" into a good task.
+    - Context and memory. Instruction files such as `CLAUDE.md` and `AGENTS.md`, and your own notes.
+    - Tools and extensions, with Zotero as the example. When a tool helps and when it adds noise.
+    - Steering and safety nets. Interrupting, correcting and going back to an earlier point. Git explained from zero as save points for a folder. Signs of trouble.
+
+- time: "12:30–13:30"
+  title: Lunch
+  kind: break
+
+- time: "13:30–14:15"
+  label: Part 3
+  title: Skills and safety
+  kind: part
+  format: Talk
+  items:
+    - Skills. A skill is a folder with a recipe. Skills can contain code, so check one before you install it.
+    - Prompt injection. Data that reads like instructions.
+    - Sandboxing. What a sandbox is, how it differs from approving each step, and what we recommend.
+    - Your data. Unpublished, personal and partner data. What is sent to the model provider.
+
+- time: "14:15–14:35"
+  label: Hands-on 2
+  title: Your first skill
+  kind: hands-on
+  format: Pairs, bilgehan.io/lit.md
+  items:
+    - Your agent downloads `bilgehan.io/lit.md`, reads it and follows it.
+    - It first asks you for your own research topic. Then it makes a literature-review skill with you.
+    - Without a working agent you follow the live demo on the screen.
+
+- time: "14:35–15:25"
+  label: Part 4
+  title: Larger work, and checking the results
+  kind: part
+  format: Talk and live demo
+  items:
+    - Splitting a larger task into plan, do and check. What you keep for yourself.
+    - Long work. Keeping track across sessions with progress files, and picking up the next day.
+    - Typical failures. Invented citations, silent changes of scope, "done" when it is not, and agreeing with you. A live demo with a planted error. Does the agent find it? Do you?
+    - Agents in research, with integrity. Disclosure, authorship, journal and funder rules, and confidentiality in peer review.
+
+- time: "15:25–15:40"
+  title: Coffee break
+  kind: break
+
+- time: "15:40–16:30"
+  label: Discussion
+  title: Agents in your research
+  kind: discussion
+  format: Groups, then plenary
+  items:
+    - You sit at tables of about 6 people. Institutes are mixed, so that fields meet.
+    - "15:40–15:45. Groups form and each table gets a prompt card."
+    - text: "15:45–16:05. Each group writes three answers on the card."
+      sub:
+        - One task in your work where an agent would clearly help.
+        - One task where using an agent would be risky, and why.
+        - One rule you would set for your group or lab.
+    - "16:05–16:30. Five or six groups report in 2 minutes each. Where it fits, we run one group's task live on the screen."
+
+- time: "16:30–16:50"
+  label: Closing
+  title: What to take home
+  kind: closing
+  format: Talk, Q&A
+  items:
+    - The day in four lines.
+    - A checklist for your first week. Install and set your data-use settings. Do one real task with a good description. Make one skill. Check every result.
+    - What to look out for. Costs, data, invented references and overconfidence.
+    - Where to go next, and open questions.
+
+- time: "16:50–17:00"
+  title: Feedback form and thanks
+  kind: other
+  format: QR code
+
+- time: "17:00"
+  title: Drinks
+  kind: break

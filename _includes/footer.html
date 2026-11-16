@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a class="cwi-logo cwi-logo-lg" href="https://www.cwi.nl/en/" title="{{ site.event.institute }}">
+        {% include cwi-logo.html %}
+      </a>
+      <div>
+      <strong>{{ site.title }}</strong> · {{ site.event.edition }}<br>
+      {{ site.event.date }}, {{ site.event.time }}<br>
+      Based on the CWI course <a href="{{ site.event.course_url }}">AI Agents in Practice</a> by Bilgehan Ertan and Marten van Dijk.
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="{{ '/programme/' | relative_url }}">Programme</a>
+      <a href="{{ '/setup/' | relative_url }}">Before you come</a>
+      <a href="{{ '/skills/' | relative_url }}">Skills</a>
+      <a href="{{ '/resources/' | relative_url }}">Resources</a>
+      {% if site.event.register_url and site.event.register_url != "" %}<a href="{{ site.event.register_url }}">Register</a>{% endif %}
+    </div>
+  </div>
+</footer>
+<script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
