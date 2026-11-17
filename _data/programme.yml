@@ -46,7 +46,7 @@
 
 - time: "11:40–12:30"
   label: Part 2
-  title: Working effectively with an agent
+  title: Getting good results from an agent
   kind: part
   format: Talk, one short exercise
   items:
@@ -61,18 +61,18 @@
 
 - time: "13:30–14:15"
   label: Part 3
-  title: Skills and safety
+  title: Agent Skills and Safety
   kind: part
   format: Talk
   items:
-    - Skills. A skill is a folder with a recipe. Skills can contain code, so check one before you install it.
+    - Agent Skills. A skill is a folder with a recipe that teaches your agent one task. Skills can contain code, so check one before you install it.
     - Prompt injection. Data that reads like instructions.
     - Sandboxing. What a sandbox is, how it differs from approving each step, and what we recommend.
     - Your data. Unpublished, personal and partner data. What is sent to the model provider.
 
 - time: "14:15–14:35"
   label: Hands-on 2
-  title: Your first skill
+  title: Your first Agent Skill
   kind: hands-on
   format: Live on screen, follow along on your laptop
   items:
@@ -82,13 +82,13 @@
 
 - time: "14:35–15:20"
   label: Part 4
-  title: Larger work, and checking the results
+  title: Bigger projects, and when to trust the output
   kind: part
   format: Talk and live demo
   items:
-    - Splitting a larger task into plan, do and check. What you keep for yourself.
-    - Long work. Keeping track across sessions with progress files, and picking up the next day.
-    - Typical failures. Invented citations, silent changes of scope, "done" when it is not, and agreeing with you. A live demo with a planted error. Does the agent find it? Do you?
+    - Splitting a bigger project into small steps. What you keep doing yourself.
+    - Work that takes several days. How the agent keeps track, and how you pick up the next day.
+    - Typical mistakes agents make. Made-up references, quietly doing something else than asked, saying "done" when it is not, and agreeing with you when you are wrong. A live demo with a hidden error. Does the agent find it? Do you?
     - Agents in research, with integrity. Disclosure, authorship, journal and funder rules, and confidentiality in peer review.
 
 - time: "15:20–15:40"
