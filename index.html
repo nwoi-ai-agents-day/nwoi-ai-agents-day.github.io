@@ -16,7 +16,7 @@ layout: default
     <dl class="hero-facts">
       <div><dt>Date</dt><dd>{{ ev.date }}</dd></div>
       <div><dt>Time</dt><dd>{{ ev.time }}, then drinks</dd></div>
-      <div><dt>Location</dt><dd>{{ ev.location }}</dd></div>
+      <div><dt>Location</dt><dd><a href="{{ ev.maps_url }}">{{ ev.location }}</a></dd></div>
       <div><dt>Help</dt><dd>All day, from {{ ev.walk_in }}</dd></div>
     </dl>
   </div>

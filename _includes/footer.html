@@ -1,9 +1,15 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div class="footer-brand">
-      <a class="cwi-logo cwi-logo-lg" href="https://www.cwi.nl/en/" title="{{ site.event.institute }}">
-        {% include cwi-logo.html %}
-      </a>
+      <div class="footer-logos">
+        <a class="cwi-logo cwi-logo-lg nwo-logo" href="https://www.nwo-i.nl/" title="NWO-I">
+          {% include nwo-logo.html %}
+        </a>
+        <span class="logo-divider" aria-hidden="true"></span>
+        <a class="cwi-logo cwi-logo-lg" href="https://www.cwi.nl/en/" title="{{ site.event.institute }}">
+          {% include cwi-logo.html %}
+        </a>
+      </div>
       <div>
       <strong>{{ site.title }}</strong> · {{ site.event.edition }}<br>
       {{ site.event.date }}, {{ site.event.time }}<br>

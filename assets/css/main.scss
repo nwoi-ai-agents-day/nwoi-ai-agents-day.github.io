@@ -97,6 +97,9 @@ h3 { font-size: 1.15rem; font-weight: 600; }
 .cwi-logo { display: block; line-height: 0; }
 .cwi-logo img { height: 30px; width: auto; }
 .cwi-logo-lg img { height: 40px; }
+.nwo-logo img { height: 40px; }
+.cwi-logo-lg.nwo-logo img { height: 52px; }
+.logo-divider { width: 1px; height: 26px; background: var(--line); flex: none; }
 .cwi-logo .logo-dark { display: none; }
 :root[data-theme="dark"] .cwi-logo .logo-light { display: none; }
 :root[data-theme="dark"] .cwi-logo .logo-dark { display: block; }
@@ -269,6 +272,7 @@ a.person:hover strong { color: var(--highlight); }
 .footer-inner { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
 .footer-brand { display: flex; align-items: center; gap: 18px; }
 .footer-brand .cwi-logo { flex: none; }
+.footer-logos { display: flex; align-items: center; gap: 14px; flex: none; }
 .footer-inner strong { color: var(--ink); }
 .footer-links { display: flex; flex-direction: column; gap: 6px; text-align: right; }
 
@@ -289,6 +293,8 @@ a.person:hover strong { color: var(--highlight); }
   .container { padding: 0 16px; }
   .brand-text { font-size: .9rem; }
   .cwi-logo img { height: 24px; }
+  .nwo-logo img { height: 32px; }
+  .nav a.nav-cta { display: none; }
   .brand-group { gap: 10px; }
   .nav { gap: 2px; margin-left: -6px; }
   .nav a { padding: 6px 6px; font-size: .85rem; }
