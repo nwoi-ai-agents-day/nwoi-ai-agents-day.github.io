@@ -22,7 +22,7 @@
   label: Part 1
   title: How AI agents work
   kind: part
-  format: Talk and live demo
+  format: Lecture and live demo
   items:
     - From chatbot to agent, with a live demo. Demo task TBD.
     - What a language model is. Why it can sound sure when it is wrong.
@@ -48,7 +48,7 @@
   label: Part 2
   title: Getting good results from an agent
   kind: part
-  format: Talk, one short exercise
+  format: Lecture, one short exercise
   items:
     - A good task description. The goal, the context, the limits and what "done" looks like. Together we rewrite "analyse my data" into a good task.
     - Context and memory. Instruction files such as `CLAUDE.md` and `AGENTS.md`, and your own notes.
@@ -63,7 +63,7 @@
   label: Part 3
   title: Agent Skills and Safety
   kind: part
-  format: Talk
+  format: Lecture
   items:
     - Agent Skills. A skill is a folder with a recipe that teaches your agent one task. Skills can contain code, so check one before you install it.
     - Prompt injection. Data that reads like instructions.
@@ -84,7 +84,7 @@
   label: Part 4
   title: Bigger projects, larger tasks
   kind: part
-  format: Talk and live demo
+  format: Lecture and live demo
   items:
     - Splitting a bigger project into small steps. What you keep doing yourself.
     - Work that takes several days. How the agent keeps track, and how you pick up the next day.
@@ -114,7 +114,7 @@
   label: Closing
   title: What to take home
   kind: closing
-  format: Talk, Q&A
+  format: Lecture, Q&A
   items:
     - The day in four lines.
     - A checklist for your first week. Install and set your data-use settings. Do one real task with a good description. Make one skill. Check every result.
