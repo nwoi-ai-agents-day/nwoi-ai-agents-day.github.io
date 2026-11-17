@@ -13,7 +13,7 @@
 - time: "10:00–10:10"
   title: Welcome
   kind: other
-  format: Show of hands
+  format: "-"
   items:
     - Who has used ChatGPT or Claude?
     - Who has used an agent?
