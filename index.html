@@ -6,7 +6,7 @@ layout: default
   <div class="container hero-inner">
     <p class="eyebrow">{{ ev.edition }} · {{ ev.date }}</p>
     <h1>AI Agents <em>in Practice</em></h1>
-    <p class="lead">A one-day course for students, researchers and staff members who want to use modern AI agents well in their own work, from programming and data analysis to literature review and scientific writing. An AI agent is an assistant that can read your files, run programs and check its own work.</p>
+    <p class="lead">A one-day course for students and researchers who want to use modern AI agents well in their own work, from programming and data analysis to literature review and scientific writing. An AI agent is an assistant that can read your files, run programs and check its own work.</p>
     <div class="hero-actions">
       {% if ev.register_url and ev.register_url != "" %}<a class="btn btn-primary" href="{{ ev.register_url }}">Register</a>{% endif %}
       <a class="btn {% if ev.register_url and ev.register_url != '' %}btn-ghost{% else %}btn-primary{% endif %}" href="{{ '/programme/' | relative_url }}">See the programme</a>
@@ -37,10 +37,10 @@ layout: default
   <div class="container two-col">
     <div>
       <p class="eyebrow">Who it is for</p>
-      <h2>Everyone at <span style="white-space: nowrap">NWO-I</span> institutes</h2>
+      <h2>Students and researchers at <span style="white-space: nowrap">NWO-I</span> institutes</h2>
     </div>
     <div class="prose">
-      <p>The day is for students, researchers and staff members of <span style="white-space: nowrap">NWO-I</span> institutes, from any field.</p>
+      <p>The day is for students and researchers at <span style="white-space: nowrap">NWO-I</span> institutes, from any field.</p>
       <p>The lectures are designed for everyone. You do not need a background in computer science.</p>
     </div>
   </div>
