@@ -21,7 +21,7 @@ enough.
 <p class="cmd-caption"><strong>Claude Code</strong> <span class="muted">(in the Claude desktop app. Anthropic: Pro plan or higher)</span></p>
 <table class="cmd-table" aria-label="Claude desktop app install steps">
   <tbody>
-    <tr><th scope="row">Download</th><td><a href="https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect">macOS</a> · <a href="https://claude.ai/api/desktop/win32/x64/setup/latest/redirect">Windows</a> · <a href="https://claude.ai/api/desktop/win32/arm64/setup/latest/redirect">Windows ARM</a> · <a href="https://code.claude.com/docs/en/desktop-linux">Linux (beta)</a></td></tr>
+    <tr><th scope="row">Download</th><td><a href="https://claude.com/download">claude.com/download</a> (macOS, Windows, Linux beta)</td></tr>
     <tr><th scope="row">Log in</th><td>open Claude and sign in</td></tr>
     <tr><th scope="row">Open the agent</th><td>click the <strong>Code</strong> tab and choose a project folder</td></tr>
     <tr><th scope="row">Start safely</th><td>pick <strong>Manual</strong> in the mode selector under the prompt box. Claude then asks before it edits files or runs commands</td></tr>

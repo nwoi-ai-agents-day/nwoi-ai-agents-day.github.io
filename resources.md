@@ -46,8 +46,8 @@ computer science.
 
 ## Agent tools
 
-- [Claude Code](https://code.claude.com/docs/en/overview) (Anthropic)
-- [Codex CLI](https://learn.chatgpt.com/docs/codex/cli) (OpenAI)
+- [Claude Code in the Claude desktop app](https://code.claude.com/docs/en/desktop) (Anthropic)
+- [Codex in the ChatGPT desktop app](https://learn.chatgpt.com/docs/app) (OpenAI)
 
 See [Before you come]({{ '/setup/' | relative_url }}) for how to install one.
 
