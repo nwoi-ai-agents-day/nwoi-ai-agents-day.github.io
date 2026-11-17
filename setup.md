@@ -71,11 +71,11 @@ or data from partners.
 
 <p class="muted">Checked on 27 October and 3 November 2026. Terms change.</p>
 
-## 5. Setup help from 09:30
+## 5. Help throughout the day
 
-Walk-in and setup help start at 09:30, half an hour before the start. Come
-early if your install does not work yet, or if you are not sure you are
-logged in.
+We help with setup and with the tasks throughout the day. The doors open at
+09:30, half an hour before the start. Come early if your install does not
+work yet, or if you are not sure you are logged in.
 
 ## No account?
 
