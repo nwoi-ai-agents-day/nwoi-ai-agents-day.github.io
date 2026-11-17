@@ -12,32 +12,37 @@ Bring the laptop you will work on, and its charger. In the hands-on blocks the
 presenter does each step live on the screen. You can do the same on your
 laptop if you want. The presenter comes round to help.
 
-## 2. Install Claude Code or Codex and log in
+## 2. Install a desktop app and log in
 
-You type the commands below in a terminal. A terminal is a window where you
-type commands instead of clicking. On macOS, open the Terminal app. On
-Windows, open PowerShell.
+We use the desktop apps on the day. You do not need a terminal. One agent is
+enough.
 
 <div class="table-wrap" markdown="0">
-<p class="cmd-caption"><strong>Claude Code</strong> <span class="muted">(Anthropic: Pro plan or higher)</span></p>
-<table class="cmd-table" aria-label="Claude Code install steps">
+<p class="cmd-caption"><strong>Claude Code</strong> <span class="muted">(in the Claude desktop app. Anthropic: Pro plan or higher)</span></p>
+<table class="cmd-table" aria-label="Claude desktop app install steps">
   <tbody>
-    <tr><th scope="row">macOS, Linux, WSL</th><td><code>curl -fsSL https://claude.ai/install.sh | bash</code></td></tr>
-    <tr><th scope="row">Windows PowerShell</th><td><code>irm https://claude.ai/install.ps1 | iex</code></td></tr>
-    <tr><th scope="row">Log in</th><td>new terminal: run <code>claude</code>, follow the browser prompt, then <code>/exit</code></td></tr>
-    <tr><th scope="row">Test</th><td><code>claude --version</code> and <code>claude auth status --text</code></td></tr>
-    <tr><th scope="row">Start safely</th><td><code>claude --permission-mode default</code> (Manual), in every new session</td></tr>
+    <tr><th scope="row">Download</th><td><a href="https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect">macOS</a> · <a href="https://claude.ai/api/desktop/win32/x64/setup/latest/redirect">Windows</a> · <a href="https://claude.ai/api/desktop/win32/arm64/setup/latest/redirect">Windows ARM</a> · <a href="https://code.claude.com/docs/en/desktop-linux">Linux (beta)</a></td></tr>
+    <tr><th scope="row">Log in</th><td>open Claude and sign in</td></tr>
+    <tr><th scope="row">Open the agent</th><td>click the <strong>Code</strong> tab and choose a project folder</td></tr>
+    <tr><th scope="row">Start safely</th><td>pick <strong>Manual</strong> in the mode selector under the prompt box. Claude then asks before it edits files or runs commands</td></tr>
     <tr><th scope="row">Training off</th><td>once, in your Claude privacy settings (<a href="#data">step 4</a>)</td></tr>
   </tbody>
 </table>
 </div>
-<!-- Claude Code: install commands, "open a new terminal window and run claude --version", free plan excludes Claude Code: https://code.claude.com/docs/en/setup ; log in by running `claude`: https://code.claude.com/docs/en/authentication ; `claude auth status --text`: https://code.claude.com/docs/en/cli-reference ; Manual mode: https://code.claude.com/docs/en/permission-modes -->
+<!-- Claude Desktop: "In the Claude Desktop app, Claude Code is the Code tab"; download cards for macOS (universal), Windows x64, Windows ARM64, Linux beta; "After installing, launch Claude, sign in, and click the Code tab"; Manual: "Claude asks before editing files or running commands" (checked 17 Nov 2026): https://code.claude.com/docs/en/desktop ; free plan excludes Claude Code: https://code.claude.com/docs/en/setup -->
 
-[Codex CLI](https://learn.chatgpt.com/docs/codex/cli) also works for this day.
-Follow its install guide.
-<!-- Codex CLI: "Inspect, edit, and run code from your terminal" (checked 3 Nov 2026): https://learn.chatgpt.com/docs/codex/cli -->
-
-One agent is enough.
+<div class="table-wrap" markdown="0">
+<p class="cmd-caption"><strong>Codex</strong> <span class="muted">(in the ChatGPT desktop app)</span></p>
+<table class="cmd-table" aria-label="ChatGPT desktop app install steps">
+  <tbody>
+    <tr><th scope="row">Download</th><td><a href="https://chatgpt.com/download/">macOS or Windows</a> · <a href="https://learn.chatgpt.com/docs/linux/linux-app">Linux</a></td></tr>
+    <tr><th scope="row">Log in</th><td>open ChatGPT and sign in with your ChatGPT account</td></tr>
+    <tr><th scope="row">Open the agent</th><td>choose <strong>Codex</strong>, then open a folder and start a new chat</td></tr>
+    <tr><th scope="row">Training off</th><td>once, in your ChatGPT data controls and Codex settings (<a href="#data">step 4</a>)</td></tr>
+  </tbody>
+</table>
+</div>
+<!-- ChatGPT desktop app: "Download ChatGPT for macOS or Windows, or follow the Linux installation guide"; "Open the app, then sign in with your ChatGPT account"; "Choose ChatGPT or Codex ... In Codex, start with New chat" (checked 17 Nov 2026): https://learn.chatgpt.com/docs/app ; Codex joined the ChatGPT desktop app on 9 Jul 2026: https://developers.openai.com/codex/changelog -->
 
 ## 3. Your account
 
