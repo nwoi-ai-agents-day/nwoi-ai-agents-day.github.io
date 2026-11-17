@@ -13,7 +13,6 @@
     <nav class="nav" aria-label="Main">
       <a href="{{ '/programme/' | relative_url }}"{% if page.url == '/programme/' %} aria-current="page"{% endif %}>Programme</a>
       <a href="{{ '/setup/' | relative_url }}"{% if page.url == '/setup/' %} aria-current="page"{% endif %}>Before you come</a>
-      <a href="{{ '/skills/' | relative_url }}"{% if page.url == '/skills/' %} aria-current="page"{% endif %}>Skills</a>
       <a href="{{ '/resources/' | relative_url }}"{% if page.url == '/resources/' %} aria-current="page"{% endif %}>Resources</a>
       {% if site.event.register_url and site.event.register_url != "" %}<a class="nav-cta" href="{{ site.event.register_url }}">Register</a>{% endif %}
       <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">

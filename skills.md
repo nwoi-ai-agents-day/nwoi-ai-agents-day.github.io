@@ -9,7 +9,7 @@ permalink: /skills/
 <div class="callout" markdown="0">
   <div>
     <p class="eyebrow">No preparation needed</p>
-    <p>This page is a reference for after the day. We explain skills and handoffs in Part 3 and do the literature-review skill together, live on the screen, in Hands-on 2. You do not need to open any of these links before you come.</p>
+    <p>This page is a reference for after the day. We explain skills in Part 3 and make a first skill together, live on the screen, in Hands-on 2. You do not need to open any of these links before you come.</p>
   </div>
 </div>
 
@@ -20,29 +20,12 @@ install one, give your agent the link and say which skills to install.
 ## Handoffs
 
 A handoff is a file your agent reads and follows. Give your agent the short
-link and ask it to follow the file. Both files are on the
-[CWI course website]({{ site.event.course_url }}).
+link and ask it to follow the file. The handoff for Hands-on 2 is shared on
+the day.
 
-- [Literature-review skill](https://cwi-aiagents-lectures.github.io/handoff/lit-review-skill.md),
-  short link `bilgehan.io/lit.md`. Your agent makes a `lit-review` skill with
-  you. We use it in Hands-on 2.
 - [Local LaTeX project](https://cwi-aiagents-lectures.github.io/handoff/latex-project.md),
   short link `bilgehan.io/latex.md`. Your agent sets up a LaTeX project on your
   own computer. You can try it at home.
-
-### What the literature-review handoff does
-
-1. It interviews you, one question at a time. It asks about your field, the
-   sources to search, the number of papers, how recent they should be, the
-   output format, the checks it should do, where to save results, and whether
-   the skill is for you or for this project only.
-2. It writes `lit-review/SKILL.md` from your answers.
-3. It runs one test with 3 papers.
-4. It shows you the skill file, so you can read and change it.
-
-It asks before it installs anything or writes outside the project. It never
-invents papers. Every paper comes from a live lookup, or it is marked
-"could not verify".
 
 ## Skill collections
 
@@ -64,9 +47,7 @@ Skill counts are approximate, as of November 2026.
 ## How to make your own
 
 Do a task with your agent. When it works, ask "Turn what we just did into a
-skill." Then read the file it writes and fix what is wrong. You can also use
-the [literature-review handoff](https://cwi-aiagents-lectures.github.io/handoff/lit-review-skill.md)
-as a model for your own. The
+skill." Then read the file it writes and fix what is wrong. The
 [Claude Code skills documentation](https://code.claude.com/docs/en/skills)
 explains where skills live and how they are loaded.
 
