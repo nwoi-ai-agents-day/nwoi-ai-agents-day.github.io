@@ -48,7 +48,7 @@
   label: Part 2
   title: Working effectively with an agent
   kind: part
-  format: Talk, one short whole-room exercise
+  format: Talk, one short exercise
   items:
     - A good task description. The goal, the context, the limits and what "done" looks like. Together we rewrite "analyse my data" into a good task.
     - Context and memory. Instruction files such as `CLAUDE.md` and `AGENTS.md`, and your own notes.
@@ -102,7 +102,7 @@
   kind: discussion
   format: Open discussion, live demos
   items:
-    - One discussion with the whole room, led by the presenter.
+    - An open discussion, led by the presenter.
     - text: "Three questions to the room. A show of hands for each, then open discussion."
       sub:
         - Where would an agent help in your work?

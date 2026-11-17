@@ -2,8 +2,8 @@
 
 Website for the one-day NWO-I edition of the CWI course *AI Agents in
 Practice*, on Monday 7 December 2026. The planned address is
-<https://nwoi-ai-agents-day.github.io/nwoi-ai-agents-day/>, from the repo
-`nwoi-ai-agents-day/nwoi-ai-agents-day`.
+<https://nwoi-ai-agents-day.github.io/>, from the repo
+`nwoi-ai-agents-day/nwoi-ai-agents-day.github.io`.
 
 Built with [Jekyll](https://jekyllrb.com). Layouts and styles come from the
 course site.

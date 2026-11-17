@@ -4,7 +4,7 @@ description: >-
   A one-day course on using AI agents in research, for researchers from NWO-I
   institutes. Based on the CWI course AI Agents in Practice.
 url: "https://nwoi-ai-agents-day.github.io"
-baseurl: "/nwoi-ai-agents-day"
+baseurl: ""
 
 event:
   edition: NWO-I edition
@@ -19,7 +19,7 @@ event:
   instructors:
     - name: M. Bilgehan Ertan
       role: Main instructor
-      title: PhD Student, AI Safety & Privacy
+      title: PhD Student, AI Safety & Security
       group: Computer Security (CSY), CWI Amsterdam
       profile: https://bilgehanertan.github.io
       photo: /assets/img/people/ertan.jpg
