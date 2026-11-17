@@ -2,9 +2,16 @@
 layout: page
 title: Skills
 eyebrow: Further material
-lead: The handoffs from the day, skill collections that others share, and how to make your own skill.
+lead: For after the day. We go through all of this in the lecture, so you do not need to read it beforehand.
 permalink: /skills/
 ---
+
+<div class="callout" markdown="0">
+  <div>
+    <p class="eyebrow">No preparation needed</p>
+    <p>This page is a reference for after the day. We explain skills and handoffs in Part 3 and do the literature-review skill together, live on the screen, in Hands-on 2. You do not need to open any of these links before you come.</p>
+  </div>
+</div>
 
 A skill is a folder with a `SKILL.md` file. The file is a recipe that tells
 your agent how to do one task. Check a skill before you install it. To
