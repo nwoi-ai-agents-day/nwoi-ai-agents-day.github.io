@@ -13,8 +13,8 @@ event:
   time: "10:00–16:40"
   walk_in: "09:30"
   location: Euler room, CWI, Science Park 123, Amsterdam
-  # Google Form link goes here. The register button appears once it is set.
-  register_url: ""
+  # Google Form. The register button appears because this is set.
+  register_url: https://forms.gle/PRMFjTftkCkqrQjv9
   course_url: https://cwi-aiagents-lectures.github.io/
   presenter:
     name: Bilgehan Ertan
