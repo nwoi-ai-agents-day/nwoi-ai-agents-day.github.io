@@ -21,7 +21,7 @@ enough.
 <p class="cmd-caption"><strong>Claude Code</strong> <span class="muted">(in the Claude desktop app. Anthropic: Pro plan or higher)</span></p>
 <table class="cmd-table" aria-label="Claude desktop app install steps">
   <tbody>
-    <tr><th scope="row">Download</th><td><a href="https://claude.com/download">claude.com/download</a> (macOS, Windows, Linux beta)</td></tr>
+    <tr><th scope="row">Download</th><td>from Anthropic's <a href="https://claude.com/download">Claude download page</a></td></tr>
     <tr><th scope="row">Log in</th><td>open Claude and sign in</td></tr>
     <tr><th scope="row">Open the agent</th><td>click the <strong>Code</strong> tab and choose a project folder</td></tr>
     <tr><th scope="row">Start safely</th><td>pick <strong>Manual</strong> in the mode selector under the prompt box. Claude then asks before it edits files or runs commands</td></tr>
@@ -35,7 +35,7 @@ enough.
 <p class="cmd-caption"><strong>Codex</strong> <span class="muted">(in the ChatGPT desktop app)</span></p>
 <table class="cmd-table" aria-label="ChatGPT desktop app install steps">
   <tbody>
-    <tr><th scope="row">Download</th><td><a href="https://chatgpt.com/download/">macOS or Windows</a> · <a href="https://learn.chatgpt.com/docs/linux/linux-app">Linux</a></td></tr>
+    <tr><th scope="row">Download</th><td>from OpenAI's <a href="https://chatgpt.com/download/">ChatGPT download page</a></td></tr>
     <tr><th scope="row">Log in</th><td>open ChatGPT and sign in with your ChatGPT account</td></tr>
     <tr><th scope="row">Open the agent</th><td>choose <strong>Codex</strong>, then open a folder and start a new chat</td></tr>
     <tr><th scope="row">Training off</th><td>once, in your ChatGPT data controls and Codex settings (<a href="#data">step 4</a>)</td></tr>
