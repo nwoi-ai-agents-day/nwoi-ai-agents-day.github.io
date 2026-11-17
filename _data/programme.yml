@@ -97,7 +97,7 @@
   title: Coffee break
   kind: break
 
-- time: "15:40–16:30"
+- time: "15:40–16:10"
   label: Discussion
   title: Agents in your research
   kind: discussion
@@ -112,7 +112,7 @@
     - The presenter runs one or two tasks from participants live on the screen. Data from participants only goes on screen if it is public.
     - Open Q&A.
 
-- time: "16:30–16:50"
+- time: "16:10–16:40"
   label: Closing
   title: What to take home
   kind: closing
@@ -122,12 +122,8 @@
     - A checklist for your first week. Install and set your data-use settings. Do one real task with a good description. Make one skill. Check every result.
     - What to look out for. Costs, data, invented references and overconfidence.
     - Where to go next, and open questions.
+    - Feedback form via QR code, and thanks.
 
-- time: "16:50–17:00"
-  title: Feedback form and thanks
-  kind: other
-  format: QR code
-
-- time: "17:00"
+- time: "16:40"
   title: Drinks
   kind: break
