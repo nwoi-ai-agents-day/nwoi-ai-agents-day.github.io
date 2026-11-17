@@ -16,12 +16,19 @@ event:
   # Google Form. The register button appears because this is set.
   register_url: https://forms.gle/PRMFjTftkCkqrQjv9
   course_url: https://cwi-aiagents-lectures.github.io/
-  presenter:
-    name: Bilgehan Ertan
-    title: PhD Student, AI Safety & Privacy
-    group: Computer Security (CSY), CWI Amsterdam
-    profile: https://bilgehanertan.github.io
-    photo: /assets/img/people/ertan.jpg
+  instructors:
+    - name: M. Bilgehan Ertan
+      role: Main instructor
+      title: PhD Student, AI Safety & Privacy
+      group: Computer Security (CSY), CWI Amsterdam
+      profile: https://bilgehanertan.github.io
+      photo: /assets/img/people/ertan.jpg
+    - name: Prof. Marten van Dijk
+      role: Co-instructor
+      title: Group Leader
+      group: Computer Security (CSY), CWI Amsterdam
+      profile: https://www.cwi.nl/en/people/marten-van-dijk/
+      photo: /assets/img/people/van-dijk.jpg
 
 defaults:
   - scope:
