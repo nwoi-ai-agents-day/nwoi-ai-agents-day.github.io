@@ -39,7 +39,7 @@ computer science.
 - Simon Willison, [*The Lethal Trifecta for AI Agents*](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/) (2025).
 - Anthropic, [*Claude Code documentation on skills and sandboxing*](https://code.claude.com/docs/en/skills). The sandboxing page is at code.claude.com/docs/en/sandboxing.
 
-### Bigger projects, and when to trust the output
+### Bigger projects, larger tasks
 
 - Becker et al. (METR), [*Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity*](https://arxiv.org/abs/2507.09089) (2025).
 - Dell'Acqua et al., [*Navigating the Jagged Technological Frontier*](https://doi.org/10.2139/ssrn.4573321) (2023). Harvard Business School Working Paper 24-013.
