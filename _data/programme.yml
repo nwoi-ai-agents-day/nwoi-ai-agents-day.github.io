@@ -34,12 +34,12 @@
   label: Hands-on 1
   title: Your first agent task
   kind: hands-on
-  format: Pairs, handoff file
+  format: Live on screen, follow along on your laptop
   items:
-    - You work in pairs, with one laptop and a working agent per pair.
-    - Your agent follows a handoff file. That is a file with instructions that the agent reads and follows.
+    - The presenter does each step live on the screen. You can do the same on your laptop if you want, or just watch.
+    - The agent follows a handoff file. That is a file with instructions that the agent reads and follows.
     - It makes a project folder, loads a small public dataset, cleans it, makes one plot and explains the steps.
-    - The agent asks before every step, so you see what it wants to do. Without a working agent you follow the same task live on the screen.
+    - The agent asks before every step, so you see what it wants to do. The presenter comes round to help.
 
 - time: "11:20–11:35"
   title: Coffee break
@@ -49,9 +49,9 @@
   label: Part 2
   title: Working effectively with an agent
   kind: part
-  format: Talk, one 3-minute pair exercise
+  format: Talk, one short whole-room exercise
   items:
-    - A good task description. The goal, the context, the limits and what "done" looks like. In pairs, you rewrite "analyse my data" into a good task.
+    - A good task description. The goal, the context, the limits and what "done" looks like. Together we rewrite "analyse my data" into a good task.
     - Context and memory. Instruction files such as `CLAUDE.md` and `AGENTS.md`, and your own notes.
     - Tools and extensions, with Zotero as the example. When a tool helps and when it adds noise.
     - Steering and safety nets. Interrupting, correcting and going back to an earlier point. Git explained from zero as save points for a folder. Signs of trouble.
@@ -75,11 +75,12 @@
   label: Hands-on 2
   title: Your first skill
   kind: hands-on
-  format: Pairs, bilgehan.io/lit.md
+  format: Live on screen, follow along on your laptop
   items:
-    - Your agent downloads `bilgehan.io/lit.md`, reads it and follows it.
-    - It first asks you for your own research topic. Then it makes a literature-review skill with you.
-    - Without a working agent you follow the live demo on the screen.
+    - The presenter does each step live on the screen. You can do the same on your laptop if you want, or just watch.
+    - The agent downloads `bilgehan.io/lit.md`, reads it and follows it.
+    - It first asks for a research topic. Then it makes a literature-review skill. If you follow along, you give your own topic.
+    - The presenter comes round to help.
 
 - time: "14:35–15:25"
   label: Part 4
@@ -100,16 +101,16 @@
   label: Discussion
   title: Agents in your research
   kind: discussion
-  format: Groups, then plenary
+  format: Open discussion, live demos
   items:
-    - You sit at tables of about 6 people. Institutes are mixed, so that fields meet.
-    - "15:40–15:45. Groups form and each table gets a prompt card."
-    - text: "15:45–16:05. Each group writes three answers on the card."
+    - One discussion with the whole room, led by the presenter.
+    - text: "Three questions to the room. A show of hands for each, then open discussion."
       sub:
-        - One task in your work where an agent would clearly help.
-        - One task where using an agent would be risky, and why.
-        - One rule you would set for your group or lab.
-    - "16:05–16:30. Five or six groups report in 2 minutes each. Where it fits, we run one group's task live on the screen."
+        - Where would an agent help in your work?
+        - Where would it be risky?
+        - What rule would you set for your group?
+    - The presenter runs one or two tasks from participants live on the screen. Data from participants only goes on screen if it is public.
+    - Open Q&A.
 
 - time: "16:30–16:50"
   label: Closing

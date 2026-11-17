@@ -2,14 +2,15 @@
 layout: page
 title: Before you come
 eyebrow: Setup
-lead: Do these steps at home before the day. Then you can start the hands-on parts straight away.
+lead: Do these steps at home before the day. Then you can follow along on your laptop in the hands-on parts.
 permalink: /setup/
 ---
 
 ## 1. Bring a laptop and charger
 
-Bring the laptop you will work on, and its charger. In the hands-on blocks you
-work in pairs, with one laptop and a working agent per pair.
+Bring the laptop you will work on, and its charger. In the hands-on blocks the
+presenter does each step live on the screen. You can do the same on your
+laptop if you want. The presenter comes round to help.
 
 ## 2. Install Claude Code or Codex and log in
 
@@ -36,12 +37,12 @@ Windows, open PowerShell.
 Follow its install guide.
 <!-- Codex CLI: "Inspect, edit, and run code from your terminal" (checked 3 Nov 2026): https://learn.chatgpt.com/docs/codex/cli -->
 
-One agent is enough. Already set up? Help a neighbour.
+One agent is enough.
 
 ## 3. Your account
 
-Bring your own account. You need an account that can run an agent. Without
-one, you can follow the demos on the screen.
+Bring your own account. You need an account that can run an agent to follow
+along on your laptop. Without one, you can follow the demos on the screen.
 
 ## 4. Turn off model-improvement data use {#data}
 
@@ -72,5 +73,5 @@ logged in.
 
 ## No account?
 
-You can still follow the demos. Everything we do in the hands-on blocks is
-also shown live on the screen.
+You can still follow the demos. Every step in the hands-on blocks is shown
+live on the screen.
