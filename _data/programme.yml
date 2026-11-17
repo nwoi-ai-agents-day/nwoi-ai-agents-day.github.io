@@ -95,7 +95,7 @@
   title: Coffee break
   kind: break
 
-- time: "15:40–16:10"
+- time: "15:40–16:30"
   label: Discussion
   title: Agents in your research
   kind: discussion
@@ -110,18 +110,8 @@
     - AI in peer review, in writing papers and in grant proposals.
     - The presenter runs one or two tasks from participants live on the screen. Data from participants only goes on screen if it is public.
     - Open Q&A.
-
-- time: "16:10–17:00"
-  label: Closing
-  title: What to take home
-  kind: closing
-  format: Lecture, Q&A
-  items:
-    - What we learned today, in short.
-    - What to look out for. Costs, your data, made-up references and too much trust in the output.
-    - Where to go next, and open questions.
     - Feedback form and thanks.
 
-- time: "17:00"
+- time: "16:30"
   title: Drinks
   kind: break
