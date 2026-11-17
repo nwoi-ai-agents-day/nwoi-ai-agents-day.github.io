@@ -3,8 +3,8 @@ tagline: A one-day course for NWO-I researchers
 description: >-
   A one-day course on using AI agents in research, for researchers from NWO-I
   institutes. Based on the CWI course AI Agents in Practice.
-url: "https://cwi-aiagents-lectures.github.io"
-baseurl: "/nwoi-ai-agents-day"
+url: "https://nwoi-ai-agents-day.github.io"
+baseurl: ""
 
 event:
   edition: NWO-I edition

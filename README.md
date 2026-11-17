@@ -2,8 +2,8 @@
 
 Website for the one-day NWO-I edition of the CWI course *AI Agents in
 Practice*, on Monday 7 December 2026. The planned address is
-<https://cwi-aiagents-lectures.github.io/nwoi-ai-agents-day/>. Nothing is
-published yet.
+<https://nwoi-ai-agents-day.github.io/>, from the repo
+`nwoi-ai-agents-day.github.io`. Nothing is published yet.
 
 Built with [Jekyll](https://jekyllrb.com). Layouts and styles come from the
 course site. The content follows `plans/nwoi-day-syllabus.md`.
@@ -16,7 +16,7 @@ course site. The content follows `plans/nwoi-day-syllabus.md`.
 export PATH="$HOME/.rbenv/shims:$PATH" && bundle exec jekyll serve --port 4001
 ```
 
-Then open <http://127.0.0.1:4001/nwoi-ai-agents-day/>.
+Then open <http://127.0.0.1:4001/>.
 
 ## Editing content
 
@@ -30,5 +30,4 @@ Then open <http://127.0.0.1:4001/nwoi-ai-agents-day/>.
 | Skills, resources | `skills.md`, `resources.md` |
 
 The register button appears in the header, the home page and the footer once
-`event.register_url` is set. Every internal link goes through `relative_url`,
-because the site lives under `/nwoi-ai-agents-day`.
+`event.register_url` is set. Every internal link goes through `relative_url`.
