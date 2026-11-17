@@ -3,17 +3,16 @@
 Website for the one-day NWO-I edition of the CWI course *AI Agents in
 Practice*, on Monday 7 December 2026. The planned address is
 <https://nwoi-ai-agents-day.github.io/nwoi-ai-agents-day/>, from the repo
-`nwoi-ai-agents-day/nwoi-ai-agents-day`. Nothing is published yet.
+`nwoi-ai-agents-day/nwoi-ai-agents-day`.
 
 Built with [Jekyll](https://jekyllrb.com). Layouts and styles come from the
-course site. The content follows `plans/nwoi-day-syllabus.md`.
+course site.
 
 ## Run locally
 
-`vendor` is a symlink to the course site's gems, so no install is needed.
-
 ```sh
-export PATH="$HOME/.rbenv/shims:$PATH" && bundle exec jekyll serve --port 4001
+bundle install
+bundle exec jekyll serve --port 4001
 ```
 
 Then open <http://127.0.0.1:4001/nwoi-ai-agents-day/>.
