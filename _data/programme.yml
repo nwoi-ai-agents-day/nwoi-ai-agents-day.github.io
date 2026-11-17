@@ -40,11 +40,11 @@
     - It makes a project folder, loads a small public dataset, cleans it, makes one plot and explains the steps.
     - The agent asks before every step, so you see what it wants to do. The presenter comes round to help.
 
-- time: "11:20–11:35"
+- time: "11:20–11:40"
   title: Coffee break
   kind: break
 
-- time: "11:35–12:30"
+- time: "11:40–12:30"
   label: Part 2
   title: Working effectively with an agent
   kind: part
@@ -81,7 +81,7 @@
     - It first asks for a research topic. Then it makes a literature-review skill. If you follow along, you give your own topic.
     - The presenter comes round to help.
 
-- time: "14:35–15:25"
+- time: "14:35–15:20"
   label: Part 4
   title: Larger work, and checking the results
   kind: part
@@ -92,7 +92,7 @@
     - Typical failures. Invented citations, silent changes of scope, "done" when it is not, and agreeing with you. A live demo with a planted error. Does the agent find it? Do you?
     - Agents in research, with integrity. Disclosure, authorship, journal and funder rules, and confidentiality in peer review.
 
-- time: "15:25–15:40"
+- time: "15:20–15:40"
   title: Coffee break
   kind: break
 
