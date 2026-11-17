@@ -8,9 +8,9 @@ permalink: /setup/
 
 ## 1. Bring a laptop and charger
 
-Bring the laptop you will work on, and its charger. In the hands-on blocks the
-presenter does each step live on the screen. You can do the same on your
-laptop if you want. The presenter comes round to help.
+Bring the laptop you will work on, and its charger. In the hands-on parts of
+the lectures, we do each step live, and we encourage you to do the same on
+your laptop. We help you throughout the day.
 
 ## 2. Install a desktop app and log in
 
