@@ -15,7 +15,8 @@ laptop if you want. The presenter comes round to help.
 ## 2. Install a desktop app and log in
 
 We use the desktop apps on the day. You do not need a terminal. One agent is
-enough.
+enough. The steps below are for Claude Code and Codex. Your favourite agent
+app works too.
 
 <div class="table-wrap" markdown="0">
 <p class="cmd-caption"><strong>Claude Code</strong> <span class="muted">(in the Claude desktop app. Anthropic: Pro plan or higher)</span></p>
@@ -49,11 +50,11 @@ enough.
 Bring your own account. You need an account that can run an agent to follow
 along on your laptop. Without one, you can follow the demos on the screen.
 
-## 4. Turn off model-improvement data use {#data}
+## 4. Optional: turn off model-improvement data use {#data}
 
-Your provider may use what you type to improve its models. Turn this off
-before you use the agent on your own work. This matters most for unpublished
-data, personal data and data from partners.
+Your provider may use what you type to improve its models. You can turn this
+off. It matters most if you use the agent on unpublished data, personal data
+or data from partners.
 
 <div class="cards cards-tight" markdown="0">
   <div class="card">
