@@ -6,7 +6,7 @@ layout: default
   <div class="container hero-inner">
     <p class="eyebrow">{{ ev.edition }} · {{ ev.date }}</p>
     <h1>AI Agents <em>in Practice</em></h1>
-    <p class="lead">A one-day course on using AI agents in your work. An AI agent is an assistant that can read your files, run programs and check its own work. You learn how agents work, how to give them good tasks, how to use them safely and how to check what they produce.</p>
+    <p class="lead">A one-day course for students, researchers and staff members who want to use modern AI agents well in their own work, from programming and data analysis to literature review and scientific writing. An AI agent is an assistant that can read your files, run programs and check its own work.</p>
     <div class="hero-actions">
       {% if ev.register_url and ev.register_url != "" %}<a class="btn btn-primary" href="{{ ev.register_url }}">Register</a>{% endif %}
       <a class="btn {% if ev.register_url and ev.register_url != '' %}btn-ghost{% else %}btn-primary{% endif %}" href="{{ '/programme/' | relative_url }}">See the programme</a>
