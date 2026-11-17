@@ -11,6 +11,7 @@ layout: default
       {% if ev.register_url and ev.register_url != "" %}<a class="btn btn-primary" href="{{ ev.register_url }}">Register</a>{% endif %}
       <a class="btn {% if ev.register_url and ev.register_url != '' %}btn-ghost{% else %}btn-primary{% endif %}" href="{{ '/programme/' | relative_url }}">See the programme</a>
       <a class="btn btn-ghost" href="{{ '/setup/' | relative_url }}">Before you come</a>
+      <a class="btn btn-ghost" href="#instructors">Meet the instructors</a>
     </div>
     <dl class="hero-facts">
       <div><dt>Date</dt><dd>{{ ev.date }}</dd></div>
