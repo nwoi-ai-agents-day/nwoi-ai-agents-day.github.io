@@ -144,7 +144,7 @@ h3 { font-size: 1.15rem; font-weight: 600; }
 .btn-primary { background: var(--accent); color: var(--accent-ink); }
 .btn-primary:hover { color: var(--accent-ink); filter: brightness(1.1); }
 .btn-ghost { border-color: var(--line); color: var(--ink); background: var(--surface); }
-.hero-facts { display: grid; grid-template-columns: repeat(4, minmax(0, auto)); gap: 16px 28px; max-width: 720px; margin: 0; }
+.hero-facts { display: grid; grid-template-columns: repeat(3, minmax(0, auto)); gap: 16px 28px; max-width: 720px; margin: 0; }
 .hero-facts dt { font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
 .hero-facts dd { margin: 2px 0 0; font-weight: 600; font-size: .95rem; }
 
