@@ -12,11 +12,12 @@ Bring the laptop you will work on, and its charger. In the hands-on parts of
 the lectures, we do each step live, and we encourage you to do the same on
 your laptop. We help you throughout the day.
 
-## 2. Install a desktop app and log in
+## 2. Install a desktop app and log in (encouraged)
 
 We use the desktop apps on the day. You do not need a terminal. One agent is
 enough. The steps below are for Claude Code and Codex. Your favourite agent
-app works too.
+app works too. You need your own account to follow along on your laptop.
+Without one, you can follow the demos on the screen.
 
 <div class="table-wrap" markdown="0">
 <p class="cmd-caption"><strong>Claude Code</strong> <span class="muted">(in the Claude desktop app. Anthropic: Pro plan or higher)</span></p>
@@ -26,7 +27,7 @@ app works too.
     <tr><th scope="row">Log in</th><td>open Claude and sign in</td></tr>
     <tr><th scope="row">Open the agent</th><td>click the <strong>Code</strong> tab and choose a project folder</td></tr>
     <tr><th scope="row">Start safely</th><td>pick <strong>Manual</strong> in the mode selector under the prompt box. Claude then asks before it edits files or runs commands</td></tr>
-    <tr><th scope="row">Training off</th><td>once, in your Claude privacy settings (<a href="#data">step 4</a>)</td></tr>
+    <tr><th scope="row">Training off</th><td>once, in your Claude privacy settings (<a href="#data">step 3</a>)</td></tr>
   </tbody>
 </table>
 </div>
@@ -39,18 +40,13 @@ app works too.
     <tr><th scope="row">Download</th><td>from OpenAI's <a href="https://chatgpt.com/download/">ChatGPT download page</a></td></tr>
     <tr><th scope="row">Log in</th><td>open ChatGPT and sign in with your ChatGPT account</td></tr>
     <tr><th scope="row">Open the agent</th><td>choose <strong>Codex</strong>, then open a folder and start a new chat</td></tr>
-    <tr><th scope="row">Training off</th><td>once, in your ChatGPT data controls and Codex settings (<a href="#data">step 4</a>)</td></tr>
+    <tr><th scope="row">Training off</th><td>once, in your ChatGPT data controls and Codex settings (<a href="#data">step 3</a>)</td></tr>
   </tbody>
 </table>
 </div>
 <!-- ChatGPT desktop app: "Download ChatGPT for macOS or Windows, or follow the Linux installation guide"; "Open the app, then sign in with your ChatGPT account"; "Choose ChatGPT or Codex ... In Codex, start with New chat" (checked 17 Nov 2026): https://learn.chatgpt.com/docs/app ; Codex joined the ChatGPT desktop app on 9 Jul 2026: https://developers.openai.com/codex/changelog -->
 
-## 3. Your account
-
-Bring your own account. You need an account that can run an agent to follow
-along on your laptop. Without one, you can follow the demos on the screen.
-
-## 4. Optional: turn off model-improvement data use {#data}
+## 3. Optional: turn off model-improvement data use {#data}
 
 Your provider may use what you type to improve its models. You can turn this
 off. It matters most if you use the agent on unpublished data, personal data
@@ -71,13 +67,12 @@ or data from partners.
 
 <p class="muted">Checked on 27 October and 3 November 2026. Terms change.</p>
 
-## 5. Help throughout the day
+## 4. Help throughout the day
 
 We help with setup and with the tasks throughout the day. The doors open at
 09:30, half an hour before the start. Come early if your install does not
 work yet, or if you are not sure you are logged in.
 
-## No account?
+## Questions?
 
-You can still follow the demos. Every step in the hands-on blocks is shown
-live on the screen.
+Email [bilgehan.ertan@cwi.nl](mailto:bilgehan.ertan@cwi.nl).
